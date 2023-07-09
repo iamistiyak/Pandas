@@ -19,16 +19,16 @@ I have created this jupyter notebook to cover the pandas topics in concise manne
 I have used this command for fulfil the above purposes.
 | Command | Description |
 | :--- | --- |
-| MAX | Get the maximum value from the column |
-| SUM | Get sum of the column values |
-| CONVERT | Change the data type of the column values |
-| CAST | Change the data type of the column values |
-| JOIN | Join the tables |
-| WHERE | For the implementing the condition|
-| COUNT | Count the column values|
-| GROUP BY | Grouping the column values to get overall insights |
-| ORDER BY | Can sort the table according to the the column values |
-| PARTITION BY | Get the sum of the group and put the same values for each group in different column |
+| df.read_csv | Read the csv files |
+| df.read_excel | Read the excel files |
+| df.read_table | Read text file as a table form |
+| pd.set_option('display.max.rows', 235)| Can see the all the rows |
+| df.head(10) | Show the 1st 10 rows |
+| df.tail(10) | Show the last 10 rows |
+| df[“ColName”] | Show the specific column |
+| df2.loc["United States"] | For string location |
+| df2.iloc[3] | For integer location. |
+| isin | specific_countries = ["India", "Pakistan"] <br>df[df['Country'].isin(specific_countries)]|
 | CTE | Calculate the percentage of new vaccine takers |
 | TEMP TABLE | Calculate the percentage of new vaccine takers |
 | INSERT INTO | Insert the values in the table |
