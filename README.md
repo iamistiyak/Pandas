@@ -53,6 +53,6 @@ I have used this command for fulfil the above purposes.
 | Special Command | Description |
 | :--- | --- |
 | Shift + Tab | To open the description of the all functions under the formula. |
-| Html Commands  | It is basically used for design the Jupyter notebook <br> "<h1 style = "color:Green">":.  For heading <br> "<u>":.  For underline <br> "<b >":.  For bold text |
+| Html Commands  | It is basically used for design the Jupyter notebook <br>  h1 style = "color:Green:.  For heading <br> u ":.  For underline <br> "<b >":.  For bold text |
 | Shift + Enter  | Read the excel files |
 | Html Commands  |Save and run the code  |
