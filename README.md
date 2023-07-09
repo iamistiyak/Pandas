@@ -3,8 +3,9 @@
 **Description:** I have created this full pandas tutorial for get insight about overall pandas functionality in the project.<br>
                  All the processing files uploaded uder the **Resource** folder<br><br>
 
-I have created this jupyter notebook to cover the pandas topics in concise manner.
-| Serial | Topics | <br><br>
+I have created this jupyter notebook to cover the pandas topics in concise manner.<br><br>
+
+| Serial | Topics | 
 | :--- | --- |
 | 01 | Reading in files |
 | 02 | Filtering and ordering |
