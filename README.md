@@ -29,9 +29,30 @@ I have used this command for fulfil the above purposes.
 | df2.loc["United States"] | For string location |
 | df2.iloc[3] | For integer location. |
 | isin | specific_countries = ["India", "Pakistan"] <br>df[df['Country'].isin(specific_countries)]|
-| CTE | Calculate the percentage of new vaccine takers |
-| TEMP TABLE | Calculate the percentage of new vaccine takers |
+| str.contain | Show the values contained United <br> df[df['Country'].str.contains('United')] |
+| df.set_index('Country') | Set the index of the data frame |
+| df. filter() | df2.filter(items = ['Continent', 'CCA3']) |
+| Axis =1  Column <br> Axis = 0  Row | Insert the values in the table |
 | INSERT INTO | Insert the values in the table |
-| DATA TYPES | nvarchar(255)-Strings, numerics - integers,flot etc.., datetime - Date | <br><br><br><br>
-| DECIMAL(15,3) |  Means the value can have 3 digits overall and 2 digits to the right of the decimal point |
-| CREATE VIEW | To save the code for later visulizations |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
+| INSERT INTO | Insert the values in the table |
