@@ -32,27 +32,27 @@ I have used this command for fulfil the above purposes.
 | str.contain | Show the values contained United <br> df[df['Country'].str.contains('United')] |
 | df.set_index('Country') | Set the index of the data frame |
 | df. filter() | df2.filter(items = ['Continent', 'CCA3']) |
-| Axis =1  Column <br> Axis = 0  Row | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
-| INSERT INTO | Insert the values in the table |
+| Axis =1 -> Column <br> Axis = 0 -> Row | df2.filter(items = ['Continent', 'CCA3'], axis = 1) <br>  df2.filter(items = ['India'], axis = 0) |
+| sort_values | df[df["Rank"]<10].sort_values(by="Rank") <br> df[df["Rank"]<10].sort_values(by=["Rank","Country"], ascending = False) <br> df[df["Rank"]<10].sort_values(by=["Continent","Country"], ascending = [True, False] ) |
+| Index_col | df = pd.read_csv(r”c:\etc.”, index_col= "Country") |
+| reset_index | df.reset_index(inplace=True) |
+| set_index | df.set_index("Country") <br> df.set_index(["Continent","Country"], inplace=True) <br> df.sort_index(ascending=[False,True]) |
+| df.groupby | group_by_frame = df.groupby('Base Flavor') |
+| mean() | Calculate the mean values <br>group_by_frame.mean() |
+| count() | df.groupby('Base Flavor').count() |
+| min() | df.groupby('Base Flavor').min() |
+| max() | df.groupby('Base Flavor').max() |
+| sum() | df.groupby('Base Flavor').sum() |
+| agg() | Multiple operation in a line <br>df.groupby('Base Flavor').agg({'Flavor Rating': ['mean', 'max', 'count', 'sum']}) |
+| describe() | Describe the data frame |
+| merge() | df1.merge(df2)<br> df1.merge(df2, how = "inner", on = "FellowshipID") <br>df1.merge(df2, how = "inner", on = ["FellowshipID", "FirstName"])<br> df1.merge(df2, how = "cross") |
+| join() | df4 = df1.set_index('FellowshipID').join(df2.set_index('FellowshipID'), lsuffix='_Left', rsuffix = '_Right') |
+| Concat() | pd.concat([df1,df2]) <br> pd.concat([df1,df2], join = 'outer', axis = 1) |
+
+<br><br>
+| Special Command | Description |
+| :--- | --- |
+| Shift + Tab | To open the description of the all functions under the formula. |
+| Html Commands  | It is basically used for design the Jupyter notebook <br> <h1>:.  For heading <br><u>:.  For underline <br> <b >:.  For bold text |
+| Shift + Enter  | Read the excel files |
+| Html Commands  |Save and run the code  |
